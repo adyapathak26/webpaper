@@ -1,0 +1,250 @@
+*{
+    padding:0;
+    margin:0;
+}
+img{
+    height:80px;
+}
+
+#header
+{
+    width:98%;
+    height:100px;
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    top: 0;
+}
+ #logo
+{
+    width:70px;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    background:white;
+} 
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    
+    padding: 10px 20px;
+    font-size:25px;
+    
+    transition: 0.5s;
+}
+nav ul li a:hover
+{
+    
+    color: green;
+}
+.nav{
+    padding:20px;
+    height: 440px;
+    width: 98%;
+    background-color: magenta;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/302/588/989/purple-light-dots-purple-and-pink-circles-wallpaper-preview.jpg);
+
+}
+#text{
+ 
+    color: white;
+    text-align: right;
+     font-style: bold;
+    font-size: 90px;
+ 
+}.phoneimgs{
+    float: left;
+    height:300px;
+    width: 200px;
+    bottom:600px;
+}
+#button{
+    background-color:white;
+    color:black;
+height: 35px;
+    width:200px;
+    border-radius: 30px;
+    border-color:2px solid white;
+    float:right;
+   
+
+}
+#button:hover{
+    height:45px ;
+    width:220px;
+}
+.why{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    height: 600px;
+    width: 100vw;
+    
+    
+
+}
+.tops{
+    margin-bottom: 60px;
+}
+.tops h1{
+    margin-left: 600px;
+    
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cardssss{
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+}
+.contents{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.doll{
+    margin-top: 17px;
+}
+.pic{
+   margin-left: 65px;
+    background-color: purple;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  
+}
+.boxes{
+    border: 2px solid black;
+    background-color: #da00ff;
+    height:250px;
+    display:flex;
+    flex-flow: row wrap;
+}
+#free{
+    color:white;
+    font-size:50px;
+    position:absolute;
+    left:500px;
+    top:1150px;
+}
+#free1{
+    color:white;
+    font-size:50px;
+    position:absolute;
+    left:450px;
+    top:1250px;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+
+}
+.qu1{
+    margin-top: 30px;
+    margin-bottom: 10px ;
+    background-color: #efe5e5;
+
+    height: 60px;
+    padding: 10px;
+    padding-left: 20px;
+    width: 80%;
+
+}
+.qu{
+    
+    margin-bottom: 10px ;
+    background-color: #efe5e5;
+    height: 60px;
+    width: 80%;
+    padding: 10px;
+    padding-left: 20px;
+  
+}
+.qu2
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 70% 30%;
+     
+    margin-bottom: 30px ;
+  
+    height:60px;
+    width: 80%;
+    
+    padding-left: 20px;
+  
+}
+section{
+    border: 2px solid black;
+   
+}
+
+.boxes2{
+    height:300px;
+    width:2000px;
+    display:flex;
+    flex-flow: row wrap;
+    background:url(https://st2.depositphotos.com/1428517/8070/i/600/depositphotos_80705952-stock-photo-macro-oxygen-bubbles-in-blue.jpg);}
+
+    #free2{
+        position:absolute;
+        left:450px;
+        top:1900px;
+        font-size:70px;
+        color:white;
+        font-weight: 200;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #button2{
+        background-color:white;
+        color:black;
+        height: 35px;
+        width:200px;
+        border-radius: 30px;
+        border-color:2px solid white;
+        position:absolute;
+        left:550px;
+        top:2000px;
+    }
+    .footer{
+        padding-top: 38px;
+        background-color: rgb(15, 16, 16);
+        width: 100wv;
+        padding-left: 250px;
+        min-height: 400px;
+        display: grid;
+      
+       grid-template-columns: 1fr 1fr 1fr 1fr ;
+    
+    }
+    .footer h5{
+        color: aliceblue;
+        font-size: 20px;
+        
+    }
